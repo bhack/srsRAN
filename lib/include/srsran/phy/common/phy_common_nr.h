@@ -141,7 +141,7 @@ extern "C" {
 /**
  * @brief Maximum number of HARQ processes in the DL, signaled through RRC (PDSCH-ServingCellConfig)
  */
-#define SRSRAN_MAX_HARQ_PROC_DL_NR 16 // 3GPP TS 38.214 version 15.3.0 Sec. 5.1 or nrofHARQ-ProcessesForPDSCH
+#define SRSRAN_MAX_HARQ_PROC_DL_NR 32 // 3GPP TS 38.214 version 15.3.0 Sec. 5.1 or nrofHARQ-ProcessesForPDSCH
 
 /**
  * @brief Default number of HARQ processes in the DL, if config is absent.
@@ -151,7 +151,7 @@ extern "C" {
 /**
  * @brief Maximum number of HARQ processes in the UL, signaled through RRC (ConfiguredGrantConfig)
  */
-#define SRSRAN_MAX_HARQ_PROC_UL_NR 16 // 3GPP TS 38.214 version 15.3.0 Sec. 6.1
+#define SRSRAN_MAX_HARQ_PROC_UL_NR 32 // 3GPP TS 38.214 version 15.3.0 Sec. 6.1
 
 /**
  * @brief SSB bandwidth in subcarriers, described in TS 38.211 section 7.4.3.1 Time-frequency structure of an SS/PBCH
